@@ -1,5 +1,28 @@
+
 a {
   color:white !important;
+}
+.card-body {
+  background-color:#F2F2F5 !important;
+}
+#black-link {
+  color: #2F353F !important;
+  border: 1px solid #ccc;
+  padding:10px 16px;
+  margin-right: 12px;
+  margin-top: 30px;
+}
+#mrgn {
+  margin-top:30px;
+}
+.col-md-6 img {
+  margin-top:10px;
+}
+#black-link:hover {
+  background-color:coral;
+  color:white !important;
+  text-decoration: none;
+  transition: 0.2s;
 }
 .carousel-item {
   position: relative;
@@ -9,15 +32,36 @@ a {
   top: 20%;
   width: 100%;
   text-align: center;
-  
+}
+.container p {
+  margin-top:-20px;
+  margin-bottom: 50px;
+}
+.container h2 {
+  text-align: center;
+}
+
+.container hr {
+  width: 600px;
+  margin-top:-2px;
+  padding-bottom: 40px;
+}
+.main-heading {
+  padding:10px;
+  margin-top: 8%;
 }
 #text {
   color: black !important;
 }
 .card-body {
-  
+height: 230px;
   text-align: center;
 }
+.card-body h5 {
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
 .center-txt {
   position: absolute;
   top: 24%;
@@ -52,6 +96,9 @@ li a:hover {
 .bg-color {
   background-color: #2A343C;
 }
+.mrgn-top {
+  margin-top: 10px;
+}
 @media(max-width:709px) {
   .center-txt {
     margin-top:80px;
@@ -62,6 +109,12 @@ li a:hover {
     text-align: left;
     position: absolute;
     left:10%;
+  }
+
+}
+@media(max-width:768px){
+  .col-md-6 img{
+    display: none;
   }
 
 }
