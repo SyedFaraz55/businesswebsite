@@ -99,6 +99,29 @@ li a:hover {
 .mrgn-top {
   margin-top: 10px;
 }
+#cnt {
+  text-align: center;
+  color:white;
+  padding:30px;
+  background-color: #2F353F;
+}
+#gt p {
+  margin-bottom: 10px;
+}
+#gt {
+  font-size: 1.2rem;
+  color: coral;
+  text-align: center;
+  display: inline-block;
+  border-left: 2px solid white;
+  border-spacing: 10px;
+  width: 260px;
+
+}
+
+/*  */
+/*  */
+
 @media(max-width:709px) {
   .center-txt {
     margin-top:80px;
