@@ -102,6 +102,7 @@ li a:hover {
 #cnt {
   text-align: center;
   color:white;
+    float: left;
   padding:30px;
   background-color: #2F353F;
 }
@@ -116,12 +117,69 @@ li a:hover {
   border-left: 2px solid white;
   border-spacing: 10px;
   width: 260px;
-
 }
 
-/*  */
-/*  */
+/* Form Styling */
 
+form div {
+    padding:6px;
+    width: 80%;
+}
+
+textarea {
+    height: 127px;
+    width: 100%;
+    resize: none;
+    padding:8px;
+}
+input {
+    width: 100%;
+    padding:4px;
+}
+#slct {
+    margin-left: -10%;
+}
+/*
+.eft {
+    background-color: rebeccapurple;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+*/
+select{
+    padding:2px;
+    border: none;
+}
+button {
+    padding:10px 16px;
+    border:none;
+    background-color:#2F353F;
+    color: white;
+    border:1px solid #ccc;
+}
+button:hover {
+    background-color: coral;
+    color: white;
+    transition: 0.2s;
+    border:1px solid coral;
+    cursor: pointer;
+}
+
+#footer {
+    padding:2%;
+}
+#form-head {
+    text-align: center;
+}
+div p {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+fieldset {
+    color: white;
+}
+/* Media Queries */
 @media(max-width:709px) {
   .center-txt {
     margin-top:80px;
@@ -140,4 +198,10 @@ li a:hover {
     display: none;
   }
 
+}
+@media screen and (max-width: 600px) {
+  input {
+    width: 100%;
+    margin-top: 0;
+  }
 }

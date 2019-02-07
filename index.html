@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Spark Technology</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
@@ -19,7 +20,7 @@
   <header id="home">
 
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-color ">
-      <a class="navbar-brand" href="#"><span>SM</span> TECHNOLOGY</a>
+      <a class="navbar-brand" href="#" id="brand"><span>SM</span> TECHNOLOGY</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,7 +40,7 @@
             <a class="nav-link" href="#">Careers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -56,7 +57,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="main-heading">
-            <h1>WELCOME TO <span>SM</span>TECHNOLOGY</h1>
+            <h1 id="heading">WELCOME TO <span>SM</span>TECHNOLOGY</h1>
             <p>DELIVERING COST EFFECTIVE AND HIGH-QUALITY SOFTWARE SOLUTIONS.</p>
             <p id="mrgn"><a href="#" id="black-link">Learn More</a><a href="#" id="black-link">Contact Us</a></p>
           </div>
@@ -134,7 +135,7 @@
       <div class="col-md-4">
         <div class="card-body shadow-sm p-3 mb-5 bg-white rounded">
           <img src="resources/icons/icons8-android-os-90.png" alt="">
-          <h5 class="card-txt">Application Development</h5>
+          <h5 class="card-txt">Custom Software</h5>
           <a href="#"  id="black-link">Learn more</a>
         </div>
       </div>
@@ -142,17 +143,41 @@
    </div>
   </section>
 
-  <section>
+  <section id="contact">
     <div class="container-fluid" id="cnt">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-5">
           <p id="gt">GET IN TOUCH WITH US</p>
           <p>+91 8297349351, 9885133317</p>
           <p>Mon-Sat 8:00 am to 8:00 pm</p>
         </div>
-        <div class="col-md-6">
-          <form class="" action="index.html" method="post">
-            <label for=""></label>
+        <div class="col-md">
+          <form class="form" action="index.html" method="post">
+              <div>
+                  <P id="form-head">Reach Us Quickly</P>
+              </div>
+            <div>
+                <input type="email" name="email" placeholder="Email Address" id="eml" onClick="clr()" required >
+            </div>
+            <div>
+                <input type="text"  id="cntno" placeholder="Contact" required>     
+            </div>
+            <div>
+               <textarea rows="10" cols="40" id="txtarea" placeholder="Tell Us about your requirement" resize="none"></textarea>
+            </div>
+            <div id="slct">
+                Category: <select required>
+                    <option></option>
+                    <option value="web design & Development">Web Design & development</option>
+                    <option value="Software Development">Software Development</option>
+                    <option value="Android Application">Android Application</option>
+                    <option value="Database Management">Database Management</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                </select>
+            </div>
+            <div>
+                <button>Get a Quote</button>
+            </div>
           </form>
         </div>
       </div>
@@ -160,9 +185,24 @@
     </div>
   </section>
 
+<footer id="footer">
+    <div class="footer-social-icons">
+    
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
+<div>
+    <p>© SM Corporation 2018 - All rights reserved.</p>
+</div>
+</footer>
 
-
-
+  
 
 
 
